@@ -1,3 +1,9 @@
+# revision 24393
+# category Package
+# catalog-ctan /macros/latex/contrib/csquotes
+# catalog-date 2011-10-24 17:03:17 +0200
+# catalog-license lppl
+# catalog-version 5.1d
 Name:		texlive-csquotes
 Version:	5.1d
 Release:	1
@@ -55,6 +61,7 @@ etoolbox package.
 %doc %{_texmfdistdir}/doc/latex/csquotes/RELEASE
 %doc %{_texmfdistdir}/doc/latex/csquotes/csquotes.pdf
 %doc %{_texmfdistdir}/doc/latex/csquotes/csquotes.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ etoolbox package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

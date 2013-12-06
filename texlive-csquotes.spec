@@ -6,7 +6,7 @@
 # catalog-version 5.1d
 Name:		texlive-csquotes
 Version:	5.1d
-Release:	4
+Release:	5
 Summary:	Context sensitive quotation facilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes

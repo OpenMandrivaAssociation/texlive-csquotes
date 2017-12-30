@@ -1,12 +1,6 @@
-# revision 24393
-# category Package
-# catalog-ctan /macros/latex/contrib/csquotes
-# catalog-date 2011-10-24 17:03:17 +0200
-# catalog-license lppl
-# catalog-version 5.1d
 Name:		texlive-csquotes
-Version:	5.1d
-Release:	10
+Version:	5.2b
+Release:	1
 Summary:	Context sensitive quotation facilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes
@@ -44,14 +38,8 @@ etoolbox package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/csquotes/csq-compat.def
-%{_texmfdistdir}/tex/latex/csquotes/csquotes.cfg
-%{_texmfdistdir}/tex/latex/csquotes/csquotes.def
-%{_texmfdistdir}/tex/latex/csquotes/csquotes.sty
-%doc %{_texmfdistdir}/doc/latex/csquotes/README
-%doc %{_texmfdistdir}/doc/latex/csquotes/RELEASE
-%doc %{_texmfdistdir}/doc/latex/csquotes/csquotes.pdf
-%doc %{_texmfdistdir}/doc/latex/csquotes/csquotes.tex
+%{_texmfdistdir}/tex/latex/csquotes
+%doc %{_texmfdistdir}/doc/latex/csquotes
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,17 +50,3 @@ etoolbox package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.1d-2
-+ Revision: 750658
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.1d-1
-+ Revision: 718173
-- texlive-csquotes
-- texlive-csquotes
-- texlive-csquotes
-- texlive-csquotes
-

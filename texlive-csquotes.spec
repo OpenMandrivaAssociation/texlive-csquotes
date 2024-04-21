@@ -1,6 +1,6 @@
 Name:		texlive-csquotes
-Version:	64389
-Release:	2
+Version:	70858
+Release:	1
 Summary:	Context sensitive quotation facilities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes

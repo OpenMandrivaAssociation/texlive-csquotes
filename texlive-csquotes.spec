@@ -1,5 +1,5 @@
 Name:		texlive-csquotes
-Version:	70858
+Version:	71053
 Release:	1
 Summary:	Context sensitive quotation facilities
 Group:		Publishing

@@ -3,7 +3,7 @@ Version:	71053
 Release:	1
 Summary:	Context sensitive quotation facilities
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/csquotes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csquotes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csquotes.doc.r%{version}.tar.xz
